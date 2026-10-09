@@ -31,7 +31,7 @@ vdecarva@controller-1:~$ cat /etc/motd
 
 - ☁️ **OpenStack** 
 - 🐬 **Databases** 
-- 🕸️ **Linux networking** 
+- 🕸️ **Networking** 
 - 💾 **Storage**  
 - ⚙️ **Config management** 
 
