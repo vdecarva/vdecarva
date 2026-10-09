@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/vdecarva">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&center=true&vCenter=true&width=520&lines=%24+whoami;Vadeca+%E2%80%94+Infrastructure+Engineer;Hypervisors+%C2%B7+Networks+%C2%B7+Databases;Layer+8+enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&center=true&vCenter=true&width=520&lines=%24+whoami;vdecarva+%E2%80%94+Infrastructure+Engineer;Hypervisors+%C2%B7+Networks+%C2%B7+Databases;Layer+8+enthusiast" alt="Typing SVG" />
 </a>
 
 <br/>
