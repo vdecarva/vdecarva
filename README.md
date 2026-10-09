@@ -10,11 +10,11 @@
   <picture>
     <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/vdecarva/vdecarva/output/gravity-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vdecarva/vdecarva/output/gravity-light.svg">
-    <img alt="My contributions, falling under gravity" src="https://raw.githubusercontent.com/vdecarva/vdecarva/output/gravity-light.svg">
+    <img alt="" src="https://raw.githubusercontent.com/vdecarva/vdecarva/output/gravity-light.svg">
   </picture>
 </a>
 
-<sub>☝️ My contribution graph, obeying physics. Fewer commits = less to clean up.</sub>
+<sub>☝️Fewer commits = less to clean up.</sub>
 
 </div>
 
