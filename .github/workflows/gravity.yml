@@ -21,7 +21,7 @@ jobs:
         uses: flycran/github-gravity@v1
         with:
           username: vdecarva
-          text: Valerian
+          text: vdecarva
           shape: square
           text-color: '#1f2328'
           output-path: deploy/gravity-light.svg
