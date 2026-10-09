@@ -1,0 +1,44 @@
+name: Generate Contribution Gravity
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * *'
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  gravity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Gravity (light theme)
+        uses: flycran/github-gravity@v1
+        with:
+          username: vdecarva
+          text: Valerian
+          shape: square
+          text-color: '#1f2328'
+          output-path: deploy/gravity-light.svg
+
+      - name: Gravity (dark theme)
+        uses: flycran/github-gravity@v1
+        with:
+          username: vdecarva
+          text: Valerian
+          shape: square
+          text-color: '#e6edf3'
+          output-path: deploy/gravity-dark.svg
+
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./deploy
+          publish_branch: output
+          keep_files: false
+          force_orphan: true
