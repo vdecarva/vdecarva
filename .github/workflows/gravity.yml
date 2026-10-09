@@ -30,7 +30,7 @@ jobs:
         uses: flycran/github-gravity@v1
         with:
           username: vdecarva
-          text: Valerian
+          text: vdecarva
           shape: square
           text-color: '#e6edf3'
           output-path: deploy/gravity-dark.svg
